@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    font-family: sans-serif 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    }
+    .main-div{
+    background-color: rgb(74, 61, 28);
+    color: #cfb4b4;
+    display: flex;
+    position: sticky;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    font-size: 25px;
+    }
+    
+    .search-bar{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    }
+
+    #movie-name{
+    border: 2px solid rgb(100, 94, 94);
+    border-radius: 5px;
+    width: 300px;
+    padding: 10px;
+    }
+    /* button {
+    width: 180px;
+    background-color: rgb(93, 90, 90);
+    margin-left: 5px;
+    border-radius: 5px;
+    } */
+    button {
+        background-color: #5e6d78; /* Set the background color */
+        border: none; /* Remove borders */
+        color: white; /* Set text color */
+        padding: 15px 32px; /* Set padding */
+        text-align: center; /* Center text */
+        text-decoration: none; /* Remove underline */
+        display: inline-block; /* Make it a block element */
+        font-size: 16px; /* Set font size */
+        margin: 4px 2px; /* Set margin */
+        cursor: pointer; /* Add cursor pointer on hover */
+        border-radius: 10px; /* Add rounded corners */
+        transition-duration: 0.4s; /* Add transition effect */
+      }
+      
+      /* Add hover effect */
+      button:hover {
+        background-color: #041028;
+        color: white;
+      }
+      
+      /* Add active effect */
+      button:active {
+        background-color: rgb(53, 42, 28);
+        transform: translateY(2px);
+      }
+      
+      /* Add focus effect */
+      button:focus {
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+      }
+    
+    #movie-title {
+    text-align: center;
+    }
+    #rating{
+    text-align: center;
+    }
+    .footer {
+    background-color: rgb(74, 61, 28);
+    padding: 20px;
+    text-align: center;
+    color: #cfb4b4;
+    font-size: 18px;
+    bottom: 0px;
+    width: 100%;
+    }
